@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".AnswerActivity"
+    tools:deviceIds="wear_round">
+
+    <TextView android:id="@+id/text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_round"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YES"
+        android:id="@+id/button"
+        android:background="#ff00ff00"
+        android:layout_marginStart="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO"
+        android:id="@+id/button2"
+        android:background="#ffff0000"
+        android:layout_alignTop="@+id/button"
+        android:layout_toEndOf="@+id/button" />
+
+</RelativeLayout>
